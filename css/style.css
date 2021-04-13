@@ -4,7 +4,7 @@ html {
   overflow: hidden;
 }
 
-.mainContentContainer {
+#mainContentContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,4 +15,9 @@ html {
   max-height: 600px;
   max-width: 600px;
   object-fit: contain;
+}
+
+.sandwich {
+  position: absolute;
+  height: 33px;
 }
